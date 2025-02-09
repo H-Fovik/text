@@ -1,0 +1,52 @@
+{
+    "controlStyles[0].target": "Taskbar.TaskbarFrame#TaskbarFrame", // 目标是任务栏框架
+    "controlStyles[0].styles[0]": "MaxWidth=1050", // 设置最大宽度为1050
+    "controlStyles[0].styles[1]": "HorizontalAlignment=Center", // 设置水平对齐为居中
+    "controlStyles[0].styles[2]": "Width=Auto + 20", // 设置宽度为自动
+    "controlStyles[0].styles[3]": "MinWidth=1050", // 设置最小宽度为1050
+    "controlStyles[1].target": "Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid", // 目标是任务栏框架内的根网格
+    "controlStyles[1].styles[0]": "Padding=6,0,6,0", // 设置内边距为6,0,6,0
+    "controlStyles[1].styles[1]": "Margin=0,2,0,3", // 设置外边距为0,2,0,3
+    "controlStyles[1].styles[2]": "BorderThickness=1", // 设置边框厚度为1
+    "controlStyles[1].styles[3]": "BorderBrush:=<SolidColorBrush Color=\"{ThemeResource SurfaceStrokeColorDefault}\" Opacity=\"0.5\" />", // 设置边框画刷颜色和不透明度
+    "controlStyles[1].styles[4]": "CornerRadius=20", // 设置圆角半径为20
+    "controlStyles[1].styles[5]": "Background:=<AcrylicBrush TintColor=\"{ThemeResource CardStrokeColorDefaultSolid}\" FallbackColor=\"{ThemeResource CardStrokeColorDefaultSolid}\" TintOpacity=\"0\" TintLuminosityOpacity=\".65\" Opacity=\"1\"/>", // 设置背景为丙烯酸画刷
+    "controlStyles[2].target": "Rectangle#BackgroundFill", // 目标是任务栏背景
+    "controlStyles[2].styles[0]": "Visibility=Collapsed", // 设置可见性为折叠
+    "controlStyles[3].target": "Rectangle#BackgroundStroke", // 目标是背景描边矩形
+    "controlStyles[3].styles[0]": "Visibility=Collapsed", // 设置可见性为折叠
+    "controlStyles[4].target": "Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton > Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel", // 目标是增强入口按钮的根面板
+    "controlStyles[4].styles[0]": "Margin=0", // 设置外边距为0
+    "controlStyles[5].target": "Grid#SystemTrayFrameGrid", // 目标是系统托盘框架网格
+    "controlStyles[5].styles[0]": "Background:=#00000000", // 设置背景为透明
+    "controlStyles[5].styles[1]": "CornerRadius=10", // 设置圆角半径为10
+    "controlStyles[5].styles[2]": "BackgroundSizing=InnerBorderEdge", // 设置背景大小为内边框边缘
+    "controlStyles[5].styles[3]": "Margin=0,2,0,3", // 设置外边距为0,2,0,3
+    "controlStyles[5].styles[4]": "BorderThickness=5", // 设置边框厚度为5
+    "controlStyles[6].target": "SystemTray.ChevronIconView", // 目标是系统托盘的Chevron图标视图
+    "controlStyles[6].styles[0]": "Padding=0", // 设置内边距为0
+    "controlStyles[7].target": "SystemTray.NotifyIconView#NotifyItemIcon", // 目标是系统托盘的通知图标视图
+    "controlStyles[7].styles[0]": "Padding=0", // 设置内边距为0
+    "controlStyles[8].target": "SystemTray.OmniButton", // 目标是系统托盘的Omni按钮
+    "controlStyles[8].styles[0]": "Padding=0", // 设置内边距为0
+    "controlStyles[9].target": "SystemTray.CopilotIcon", // 目标是系统托盘的Copilot图标
+    "controlStyles[9].styles[0]": "Padding=0", // 设置内边距为0
+    "controlStyles[10].target": "SystemTray.OmniButton#NotificationCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > systemtray:IconView#SystemTrayIcon > Grid", // 目标是通知中心按钮的图标视图
+    "controlStyles[10].styles[0]": "Padding=4,0,4,0", // 设置内边距为4,0,4,0
+    "controlStyles[11].target": "SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > ContentPresenter#ContentPresenter > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid", // 目标是系统托盘图标视图的容器网格
+    "controlStyles[11].styles[0]": "Padding=0", // 设置内边距为0
+    "controlStyles[12].target": "SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon", // 目标是系统托盘图标堆栈视图
+    "controlStyles[12].styles[0]": "Padding=0", // 设置内边距为0
+    "controlStyles[13].target": "SystemTray.Stack#ShowDesktopStack", // 目标是显示桌面图标
+    "controlStyles[13].styles[0]": "Margin=0,-4,-12,-4", // 设置外边距为0,-4,-12,-4
+    "controlStyles[14].target": "Taskbar.Gripper#GripperControl", // 目标是任务栏的Gripper控件
+    "controlStyles[14].styles[0]": "Width=Auto", // 设置宽度为自动
+    "controlStyles[14].styles[1]": "MinWidth=24", // 设置最小宽度为24
+    "controlStyles[15].target": "SystemTray.SystemTrayFrame", // 目标是系统托盘框架
+    "controlStyles[15].styles[0]": "HorizontalAlignment=1", // 设置水平对齐为1
+    "controlStyles[15].styles[1]": "Margin=800,0,0,0", // 设置外边距为800,0,0,0
+    "controlStyles[16].target": "SystemTray.OmniButton#NotificationCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid > Grid > SystemTray.TextIconContent", // 目标是通知中心按钮的文本图标内容
+    "controlStyles[16].styles[0]": "Visibility=Collapsed", // 设置可见性为折叠
+    "controlStyles[17].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton]", // 目标是启动列表按钮
+    "controlStyles[17].styles[0]": "Visibility=Collapsed" // 设置可见性为折叠
+}
